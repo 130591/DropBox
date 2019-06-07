@@ -1,10 +1,13 @@
-import React from 'react';
+import React from "react";
+
+import { Wrapper } from "./components/shared";
+import { SiderBar } from "./components/sidebar";
 
 function App() {
   return (
-    <div>
-     
-    </div>
+    <Wrapper>
+      <SiderBar />
+    </Wrapper>
   );
 }
 
