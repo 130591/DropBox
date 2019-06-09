@@ -1,14 +1,12 @@
 import styled from "styled-components";
 
 export const Head = styled.header`
-  width: calc(100% - 240px);
+  width: calc(100%);
   height: 100px;
-  position: absolute;
-  top: 0px;
-  left: 240px;
+  margin-top: 40px;
 
   div {
-    width: calc(100% - 240px);
+    width: calc(100% - 120px);
     display: flex;
     justify-content: space-between;
     align-items: center;

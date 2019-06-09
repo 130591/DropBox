@@ -3,9 +3,25 @@ body {
   margin: 0px;
   height: 100%;
   font-size: 14px;
-  background-size: cover;
+  font-family: "Lato", sans-serif;
 }
 
 #root {
   min-height: 100%;
+}
+
+.tableBox {
+  width: calc(100% - 10%);
+  padding-left: 5%;
+}
+
+.document-content {
+  display: flex;
+  align-items: center;
+}
+
+.clear {
+  width: 100%;
+  min-height: 100%;
+  clear: both;
 }
