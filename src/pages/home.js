@@ -1,14 +1,23 @@
 import React, { Component } from "react";
 
 import { Header } from "../components/header";
-import { Wrapper } from "../components/shared";
+import { Wrapper, Column } from "../components/shared";
+import { TableBox } from "../components/tableBox";
+import { AppactionsMenu } from "../components/appactions";
 
 export default class Home extends Component {
   render() {
     return (
       <>
-        <Header />
-        <Wrapper />
+        <div className="clear">
+          <Column>
+            <Header />
+            <Wrapper className="tableBox">
+              <TableBox />
+              <AppactionsMenu />
+            </Wrapper>
+          </Column>
+        </div>
       </>
     );
   }

@@ -2,14 +2,17 @@ import styled from "styled-components";
 
 export const BarContainer = styled.aside`
   width: 240px;
-  height: 100%;
+  min-height: 100%;
   box-sizing: border-box;
   background-color: #f7f9fa;
   position: absolute;
+  left: 0px;
+  top: 0px;
 `;
 
 export const AsidePanel = styled.div`
   width: 80%;
+  height: 15%;
   padding: 25px;
   margin: 0 auto;
   margin-top: 15px;
