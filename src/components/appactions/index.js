@@ -1,6 +1,7 @@
 import React from "react";
 
-import { Menu, Button, ListMenu, MenuItem } from "./style";
+import { Menu, ListMenu, MenuItem } from "./style";
+import { ModalBox } from "../modal";
 
 import folder from "../../imagens/file (1).svg";
 
@@ -8,7 +9,7 @@ export const AppactionsMenu = () => {
   return (
     <>
       <Menu>
-        <Button>Criar novo arquivo</Button>
+        <ModalBox />
         <ListMenu>
           <MenuItem>
             <img src={folder} alt="" />
@@ -16,7 +17,7 @@ export const AppactionsMenu = () => {
           </MenuItem>
           <MenuItem>
             <img src={folder} alt="" />
-            <h2>Mova pasta</h2>
+            <h2>Criar pasta</h2>
           </MenuItem>
           <MenuItem>
             <img src={folder} alt="" />
