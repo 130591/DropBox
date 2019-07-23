@@ -1,8 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## DropBox
 
-## Available Scripts
-
-In the project directory, you can run:
+MVP clone the DropBox WebApp with ReactJS:
 
 ### `npm start`
 

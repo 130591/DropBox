@@ -5,7 +5,7 @@ import { ModalBox } from "../modal";
 
 import folder from "../../imagens/file (1).svg";
 
-export const AppactionsMenu = () => {
+export const AppactionsMenu = props => {
   return (
     <>
       <Menu>
