@@ -2,13 +2,14 @@ import React from "react";
 
 import { Wrapper } from "./components/shared";
 import { SiderBar } from "./components/sidebar";
-import Home from "./pages/home";
+// ROUTES
+import { Routes } from "./routes";
 
 function App() {
   return (
     <Wrapper>
       <SiderBar />
-      <Home />
+      <Routes />
     </Wrapper>
   );
 }
