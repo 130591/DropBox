@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// COMPONENTS
 import Modal from "react-modal";
 import Upload from "../uploads";
 import { Button } from "../appactions/style";
@@ -26,8 +27,9 @@ const customStyles = {
   }
 };
 
-export const ModalBox = () => {
+export const ModalBox = props => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const { onPress } = props;
   return (
     <>
       <Button
@@ -59,7 +61,7 @@ export const ModalBox = () => {
               />
             </HeadModal>
             <InputModal placeholder="Nome do arquivo" />
-            <Upload />
+            <Upload onUpload={onPress} />
           </ModalContent>
         </Modal>
       )}
